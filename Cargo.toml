@@ -8,6 +8,7 @@ repository = "https://github.com/penso/ratatui-opentui-loader"
 keywords = ["ratatui", "tui", "spinner", "loader", "widget"]
 categories = ["command-line-interface"]
 readme = "README.md"
+exclude = [".github/media/*", "demo.tape"]
 
 [dependencies]
 ratatui = "0.29"
