@@ -1,0 +1,16 @@
+[package]
+name = "ratatui-opentui-loader"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "KITT-style knight rider loader widget for ratatui, inspired by opencode/opentui"
+repository = "https://github.com/penso/ratatui-opentui-loader"
+keywords = ["ratatui", "tui", "spinner", "loader", "widget"]
+categories = ["command-line-interface"]
+readme = "README.md"
+
+[dependencies]
+ratatui = "0.29"
+
+[dev-dependencies]
+crossterm = "0.28"
