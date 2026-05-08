@@ -34,7 +34,7 @@ fn main() -> io::Result<()> {
 
     // Pagination
     let mut page = 0;
-    let per_page = 12;
+    let per_page = 7;
     let total_pages = (all_themes.len() + per_page - 1) / per_page;
 
     loop {
@@ -56,10 +56,13 @@ fn main() -> io::Result<()> {
             constraints.push(Constraint::Length(1)); // blank
             constraints.push(Constraint::Length(1)); // footer
 
-            let row_count: u16 = constraints.iter().map(|c| match c {
-                Constraint::Length(n) => *n,
-                _ => 0,
-            }).sum();
+            let row_count: u16 = constraints
+                .iter()
+                .map(|c| match c {
+                    Constraint::Length(n) => *n,
+                    _ => 0,
+                })
+                .sum();
 
             let [_, center, _] = Layout::vertical([
                 Constraint::Fill(1),

@@ -1,5 +1,6 @@
 # ratatui-opentui-loader
 
+[![CI](https://github.com/penso/ratatui-opentui-loader/actions/workflows/ci.yml/badge.svg)](https://github.com/penso/ratatui-opentui-loader/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/ratatui-opentui-loader)](https://crates.io/crates/ratatui-opentui-loader)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 

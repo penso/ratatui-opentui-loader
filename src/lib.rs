@@ -276,7 +276,7 @@ impl KittLoader {
 
     /// Create a loader with a custom accent color.
     pub fn with_color(accent: Color) -> Self {
-        Self::build(accent, 8, 6, 20, 4, 0.25, 0.55)
+        Self::build(accent, 8, 6, 30, 9, 0.25, 0.55)
     }
 
     /// Full builder.
