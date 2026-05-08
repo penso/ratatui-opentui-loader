@@ -6,7 +6,7 @@
 
 KITT-style (Knight Rider) scanner/loader widget for [ratatui](https://ratatui.rs).
 
-Inspired by the [opencode](https://github.com/opencode-ai/opencode) bottom-left spinner.
+Inspired by the [opencode](https://github.com/anomalyco/opencode) bottom-left spinner.
 
 ![Demo](.github/media/demo.gif)
 
