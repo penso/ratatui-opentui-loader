@@ -1,6 +1,6 @@
 [package]
 name = "ratatui-opentui-loader"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 description = "KITT-style knight rider loader widget for ratatui, inspired by opencode/opentui"
@@ -11,7 +11,7 @@ readme = "README.md"
 exclude = [".github/media/*", "demo.tape"]
 
 [dependencies]
-ratatui = "0.29"
+ratatui = "0.30"
 
 [dev-dependencies]
-crossterm = "0.28"
+crossterm = "0.29"
